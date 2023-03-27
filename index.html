@@ -96,7 +96,7 @@
             </li>
             <li>
               <a href="../page/subpage_01.html">
-                <img src="../img/page1_004.png" alt="" />
+                <img src="./img/page1_004.png" alt="" />
               </a>
             </li>
           </ul>
@@ -121,7 +121,9 @@
             1961년부터 시작된 프리미엄 아이스크림 브랜드 하겐다즈<br />
             하겐다즈의 엄격한 원칙을 바탕으로 만든 아이스크림
           </p>
-          <button>OUR STORY</button>
+          <button onclick="location.href='./page/subpage_02.html'">
+            OUR STORY
+          </button>
         </div>
         <div class="content_02">
           <img src="./img/page1_03.png" alt="" />
@@ -137,7 +139,9 @@
             하겐다즈가 만드는 프리미엄의 재료는 간단합니다. <br />원재료의 맛
             그대로, 밀도 있게 담아내면 충분하니깐요.
           </p>
-          <button>OUR STORY</button>
+          <button onclick="location.href='./page/subpage_02.html'">
+            OUR STORY
+          </button>
         </div>
       </div>
 
@@ -185,19 +189,19 @@
     </div>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
-      $('.slide_01').slick({
+      $(".slide_01").slick({
         autoplay: true,
         dots: true,
         arrows: false,
         // height:
-      })
+      });
     </script>
     <script>
-      var width_size = window.innerWidth
-      $('.bars').click(function () {
-        $('.nav_01').toggleClass('active')
-        $(this).find('i').toggleClass('xi-close')
-      })
+      var width_size = window.innerWidth;
+      $(".bars").click(function () {
+        $(".nav_01").toggleClass("active");
+        $(this).find("i").toggleClass("xi-close");
+      });
     </script>
   </body>
 </html>
